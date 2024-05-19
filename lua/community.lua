@@ -5,7 +5,14 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- change colortheme
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  -- add lua lsp
   { import = "astrocommunity.pack.lua" },
+  -- add cpp lsp
   { import = "astrocommunity.pack.cpp" },
-  -- import/override with your plugins folder
+  -- add notice plugin
+  { import = "astrocommunity.utility.noice-nvim" },
+  -- add cmdline plugin
+  { import = "astrocommunity.completion.cmp-cmdline" },
 }

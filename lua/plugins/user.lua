@@ -84,7 +84,7 @@ return {
     end,
   },
 
-  -- heirline config
+  -- NOTE: heirline config
   {
     "rebelot/heirline.nvim",
     opts = function(_, opts)
@@ -138,7 +138,7 @@ return {
     end,
   },
 
-  -- leetcode plugin config
+  -- NOTE: leetcode plugin config
   {
     "kawre/leetcode.nvim",
     build = ":TSUpdate html",
@@ -246,5 +246,24 @@ return {
       image_support = false,
     },
   },
+
+  -- NOTE: wakatime plugin config
+  { "wakatime/vim-wakatime", lazy = false },
+
+  -- NOTE: nvim-notify.lua plugin config
+
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      stages = "static",
+      render = "compact",
+      max_width = "30",
+      fps = 5,
+      level = 1,
+      timeout = 1000,
+    },
+  },
+  -- NOTE: cmdline plugin config
+
   -- next plugin config here
 }

@@ -6,7 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   -- change colortheme
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.everforest" },
   -- add lua lsp
   { import = "astrocommunity.pack.lua" },
   -- add cpp lsp

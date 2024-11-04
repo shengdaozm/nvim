@@ -6,6 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  {import = "astrocommunity.completion.cmp-cmdline"}
+  { import = "astrocommunity.completion.cmp-cmdline" },
   -- import/override with your plugins folder
+  { import = "astrocommunity.colorscheme.catppuccin" },
 }

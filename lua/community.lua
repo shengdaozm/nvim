@@ -9,4 +9,6 @@ return {
   { import = "astrocommunity.completion.cmp-cmdline" },
   -- import/override with your plugins folder
   { import = "astrocommunity.colorscheme.catppuccin" },
+  --  add the ai code fitten.nvim
+  { import = "astrocommunity.completion.fittencode-nvim" },
 }

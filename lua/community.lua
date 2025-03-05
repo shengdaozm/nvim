@@ -8,7 +8,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   -- import/override with your plugins folder
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   --  add the ai code fitten.nvim
   { import = "astrocommunity.completion.fittencode-nvim" },
 }

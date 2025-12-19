@@ -15,4 +15,24 @@ return {
     -- 加载主题
     vim.cmd("colorscheme kanagawa")
   end,
+
+  -- 新的 cyberdream 主题
+  -- {
+  --   "scottmckendry/cyberdream.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function()
+  --     require("cyberdream").setup({
+  --       -- 可选配置
+  --       transparent = false,
+  --       italic_comments = true,
+  --       hide_fillchars = true,
+  --       borderless_telescope = true,
+  --       terminal_colors = true,
+  --     })
+  --
+  --     -- 加载主题
+  --     vim.cmd("colorscheme cyberdream")
+  --   end,
+  -- },
 }
